@@ -4,3 +4,5 @@ The multiplexing necessary to control the 4-digit LED display is fully interupt-
 The display is realized as a separate class with somewhat generic interface.
 
 The main routine uses another HW timer to implement a 1Hz counter on the display.
+
+Note: this project uses arduino-esp32 library version 2.0.14, i.e. the old timer interface.
